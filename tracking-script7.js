@@ -7,7 +7,7 @@
   // Fetch the config from the URL parameters
   function getConfigFromQuery() {
     const scripts = document.querySelectorAll('script');
-    const trackingScript = Array.from(scripts).find(s => s.src && s.src.includes('tracking-script5'));
+    const trackingScript = Array.from(scripts).find(s => s.src && s.src.includes('tracking-script7'));
 
     if (!trackingScript || !trackingScript.src.includes('?')) {
       console.log('[Tracking] Tracking script not found or missing query params.');
